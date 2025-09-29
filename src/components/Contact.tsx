@@ -15,18 +15,12 @@ const Contact: React.FC = () => {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     
-    const subject = encodeURIComponent(`Ziņojums no ${formData.name} - EA Latvia`);
-    const body = encodeURIComponent(`Vārds: ${formData.name}\nE-pasts: ${formData.email}\n\nZiņojums:\n${formData.message}\n\n---\nSūtīts no EA Latvia mājaslapas`);
+    const subject = encodeURIComponent(`Message from ${formData.name} - EA Latvia`);
+    const body = encodeURIComponent(`Name: ${formData.name}\nEmail: ${formData.email}\n\nMessage:\n${formData.message}`);
     const mailtoUrl = `mailto:effectivealtruismlatvia@gmail.com?subject=${subject}&body=${body}`;
     
-    try {
-      window.open(mailtoUrl, '_self');
-    } catch (error) {
-      // Fallback method
-      const link = document.createElement('a');
-      link.href = mailtoUrl;
-      link.click();
-    }
+    // Open email client
+    window.location.href = mailtoUrl;
     
     setIsSubmitted(true);
     
