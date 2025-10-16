@@ -32,7 +32,7 @@ const Header: React.FC<HeaderProps> = ({ isMenuOpen, setIsMenuOpen }) => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           <div className="font-bold text-xl text-[#9D1B35]">
-            EA Latvia
+            Effective Altruism Latvia
           </div>
           
           {/* Language Switcher */}
