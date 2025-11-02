@@ -19,20 +19,20 @@ const translations = {
     
     // Hero
     'hero.title': 'Effective Altruism Latvia',
-    'hero.subtitle': 'Mēs katrs varam radīt jēgpilnu, pozitīvu ietekmi plašā mērogā. Lai to panāktu, jāatbalsta labdarības organizācijas, kuru efektivitāte ir pierādīta un apstiprināta ar pētījumiem.',
+    'hero.subtitle': 'Mēs katrs varam radīt jēgpilnu, pozitīvu ietekmi plašā mērogā. Lai to panāktu, jāatbalsta labdarības organizācijas, kuru efektivitāte ir pierādīta un apstiprināta.',
     'hero.global': 'Globāla ietekme',
     'hero.scientific': 'Zinātniski pamatota',
     
     // Definition
     'definition.title': 'Kas ir',
     'definition.titleHighlight': 'efektīvais altruisms',
-    'definition.text': 'Efektīvais altruisms ir filozofijā un sociāla kustība, kas izmanto pierādījumus un rūpīgu analīzi, lai atklātu efektīvākos veidus, kā uzlabot pasauli. Efektīvie altruisti apņemas apsvērt ikvienu cēloni vai darbību, tad rīkoties, lai radītu lielākās pozitīvās pārmaiņas. Šī plašā, zinātnē balstītā pieeja atšķir efektīvo altruismu no tradicionāla altruisma vai labdarības.',
+    'definition.text': 'Efektīvais altruisms ir filozofija un sociālā kustība, kas izmanto datos balstītu pieeju un rūpīgu analīzi, lai atklātu efektīvākos veidus, kā uzlabot pasauli. Efektīvā altruisma piekritēji apņemas izvērtēt dažādas iespējas palīdzēt citiem, un tad rīkoties, lai radītu pēc iespējas lielākas pozitīvās pārmaiņas. Šī plašā, zinātnē balstītā pieeja atšķir efektīvo altruismu no tradicionāla altruisma vai labdarības.',
     'definition.evidence': 'Pierādījumi',
     'definition.evidenceDesc': 'Izmantojam zinātniskos pētījumus un datus, lai pieņemtu informētus lēmumus.',
     'definition.focus': 'Mērķtiecība',
     'definition.focusDesc': 'Fokusējamies uz darbībām, kas rada vislielāko pozitīvo ietekmi.',
-    'definition.analysis': 'Analīze',
-    'definition.analysisDesc': 'Rūpīgi analizējam un salīdzinām dažādas iespējas palīdzēt citiem.',
+    'definition.analysis': 'Kopiena',
+    'definition.analysisDesc': 'Tiekamies, komunicējam un atbalstām viens otru.',
     
     // Resources
     'resources.title': 'Starptautiskie',
@@ -47,10 +47,10 @@ const translations = {
     'organizations.title': 'Populārās',
     'organizations.titleHighlight': 'organizācijas',
     'organizations.subtitle': 'Uzziniet par vadošajām EA organizācijām un to ieguldījumu pasaules uzlabošanā',
-    'organizations.givewell.desc': 'Pēta un iesaka efektīvākās labdarības organizācijas, kas izglābj dzīvības un uzlabo labklājību.',
-    'organizations.gwwc.desc': 'Kopiena cilvēkiem, kas apņēmušies ziedot ievērojamu daļu no saviem ienākumiem efektīvām labdarībām.',
+    'organizations.givewell.desc': 'Pēta un iesaka efektīvākās labdarības organizācijas, kas izglābj dzīvības un uzlabo cilvēku labklājību.',
+    'organizations.gwwc.desc': 'Kopiena cilvēkiem, kas apņēmušies ziedot ievērojamu daļu no saviem ienākumiem efektīvām labdarības organizācijām.',
     'organizations.ace.desc': 'Pēta un iesaka efektīvākās organizācijas, kas aizstāv dzīvnieku tiesības un labklājību.',
-    'organizations.80k.desc': 'Palīdz cilvēkiem atrast karjeru, kurā viņi var radīt vislielāko pozitīvo ietekmi pasaulē.',
+    'organizations.80k.desc': 'Palīdz cilvēkiem atrast karjeru, kurā viņi var sasniegt vislielāko pozitīvo ietekmi.',
     
     // Contact
     'contact.title': 'Kontakti',
@@ -71,8 +71,8 @@ const translations = {
     'contact.form.success': 'Jūsu e-pasta programma tiks atvērta ar sagatavotu ziņojumu.',
     
     // Footer
-    'footer.description': 'Mēs strādājam, lai radītu pozitīvas pārmaiņas pasaulē, izmantojot zinātniski pamatotu pieeju un efektīvus risinājumus globālo problēmu risināšanā.',
-    'footer.copyright': '© 2025 Effective Altruism Latvia. Visi autortiesību aizsargātie materiāli.'
+    'footer.description': 'Mēs cenšamies radīt pozitīvas pārmaiņas pasaulē, atbalstot zinātniski pamatotu pieeju globālo problēmu risināšanā.',
+    'footer.copyright': '© 2025 Effective Altruism Latvia'
   },
   en: {
     // Header
