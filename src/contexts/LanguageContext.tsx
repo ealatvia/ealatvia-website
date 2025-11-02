@@ -21,7 +21,7 @@ const translations = {
     'hero.title': 'Effective Altruism Latvia',
     'hero.subtitle': 'Mēs katrs varam radīt jēgpilnu, pozitīvu ietekmi plašā mērogā. Lai to panāktu, jāatbalsta labdarības organizācijas, kuru efektivitāte ir pierādīta un apstiprināta.',
     'hero.global': 'Globāla ietekme',
-    'hero.scientific': 'Zinātniskais pamatojums',
+    'hero.scientific': 'Empātija un rūpes',
     
     // Definition
     'definition.title': 'Kas ir',
