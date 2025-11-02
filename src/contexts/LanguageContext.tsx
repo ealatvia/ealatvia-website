@@ -91,13 +91,13 @@ const translations = {
     // Definition
     'definition.title': 'What is',
     'definition.titleHighlight': 'effective altruism',
-    'definition.text': 'Effective altruism is a philosophy and social movement that uses evidence and careful analysis to discover the most effective ways to improve the world. Effective altruists commit to considering any cause or action, then acting to create the greatest positive change. This broad, science-based approach distinguishes effective altruism from traditional altruism or charity.',
+    'definition.text': 'Effective altruism is a philosophy and social movement that uses data-based approach and careful analysis to discover the most effective ways to improve the world. Effective altruism supporters commit to evaluating various opportunities to help others, and then act to create the greatest possible positive changes. This broad, science-based approach distinguishes effective altruism from traditional altruism or charity.',
     'definition.evidence': 'Evidence',
     'definition.evidenceDesc': 'We use scientific research and data to make informed decisions.',
     'definition.focus': 'Focus',
     'definition.focusDesc': 'We focus on actions that create the greatest positive impact.',
-    'definition.analysis': 'Analysis',
-    'definition.analysisDesc': 'We carefully analyze and compare different ways to help others.',
+    'definition.analysis': 'Community',
+    'definition.analysisDesc': 'We meet, communicate and support each other.',
     
     // Resources
     'resources.title': 'International',
