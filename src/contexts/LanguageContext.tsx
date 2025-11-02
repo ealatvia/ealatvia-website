@@ -86,12 +86,12 @@ const translations = {
     'hero.title': 'Effective Altruism Latvia',
     'hero.subtitle': 'Each of us can make a meaningful, positive impact on a large scale. Everyone has the opportunity to save lives and prevent unnecessary suffering.',
     'hero.global': 'Global impact',
-    'hero.scientific': 'Evidence-based',
+    'hero.scientific': 'Empathy and care',
     
     // Definition
     'definition.title': 'What is',
     'definition.titleHighlight': 'effective altruism',
-    'definition.text': 'Effective altruism is a philosophy and social movement that uses data-based approach and careful analysis to discover the most effective ways to improve the world. Effective altruism supporters commit to evaluating various opportunities to help others, and then act to create the greatest possible positive changes. This broad, science-based approach distinguishes effective altruism from traditional altruism or charity.',
+    'definition.text': 'Effective altruism is a philosophy and social movement that uses data-based approach and careful analysis to discover the most effective ways to improve the world. Effective altruists commit to evaluating various opportunities to help others, and then act to create the greatest possible positive changes. This broad, science-based approach distinguishes effective altruism from traditional altruism or charity.',
     'definition.evidence': 'Evidence',
     'definition.evidenceDesc': 'We use scientific research and data to make informed decisions.',
     'definition.focus': 'Focus',
@@ -115,7 +115,7 @@ const translations = {
     'organizations.givewell.desc': 'Researches and recommends the most effective charities that save lives and improve well-being.',
     'organizations.gwwc.desc': 'A community of people who have pledged to donate a significant portion of their income to effective charities.',
     'organizations.ace.desc': 'Researches and recommends the most effective organizations that advocate for animal rights and welfare.',
-    'organizations.80k.desc': 'Helps people find careers where they can make the greatest positive impact in the world.',
+    'organizations.80k.desc': 'Helps people find careers where they can make the greatest positive impact on the world.',
     
     // Contact
     'contact.title': 'Contact',
@@ -136,7 +136,7 @@ const translations = {
     'contact.form.success': 'Your email program will open with a prepared message.',
     
     // Footer
-    'footer.description': 'We work to create positive change in the world using evidence-based approaches and effective solutions to global problems.',
+    'footer.description': 'We try to create positive change in the world by supporting evidence-based approaches to global problems.',
     'footer.copyright': '© 2025 Effective Altruism Latvia. All rights reserved.'
   }
 };
