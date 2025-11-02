@@ -1,5 +1,5 @@
 import React from 'react';
-import { BookOpen, Target, BarChart } from 'lucide-react';
+import { BookOpen, Target, Smile } from 'lucide-react';
 import { useLanguage } from '../contexts/LanguageContext';
 
 const Definition: React.FC = () => {
@@ -44,7 +44,7 @@ const Definition: React.FC = () => {
 
             <div className="text-center">
               <div className="bg-blue-100 p-4 rounded-full w-16 h-16 mx-auto mb-4 flex items-center justify-center">
-                <BarChart className="w-8 h-8 text-blue-600" />
+                <Smile className="w-8 h-8 text-blue-600" />
               </div>
               <h3 className="text-xl font-semibold text-gray-900 mb-3">{t('definition.analysis')}</h3>
               <p className="text-gray-600">
