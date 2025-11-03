@@ -111,7 +111,7 @@ const translations = {
     
     // About
     'about.title': 'Who we are',
-    'about.titleHighlight': '',
+    'about.titleHighlight': ' ',
     'about.text': 'EA Latvia is a small (about 10 members) NGO that',
     'about.point1': 'organizes EA promotion events,',
     'about.point2': 'provides the opportunity to receive tax refunds for donations to effective charities,',
