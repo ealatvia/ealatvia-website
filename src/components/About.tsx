@@ -56,6 +56,47 @@ const About: React.FC = () => {
               ))}
             </div>
           </div>
+
+          <div className="mt-16">
+            <h3 className="text-2xl font-semibold text-gray-900 text-center mb-8">
+              {t('about.boardTitle')}
+            </h3>
+            <div className="grid md:grid-cols-3 gap-8">
+              <div className="text-center">
+                <div className="w-32 h-32 mx-auto mb-4 rounded-full overflow-hidden shadow-lg">
+                  <img 
+                    src="https://media.licdn.com/dms/image/v2/D4D03AQGVI4jI8eNNLg/profile-displayphoto-shrink_800_800/B4DZQYIjFIHwAc-/0/1735571682163?e=1763596800&v=beta&t=yxuNgrzbg_GRiztja43CsRBFa1QwgHDvM3LFaU182Hs"
+                    alt="Artūrs Kaņepājs"
+                    className="w-full h-full object-cover"
+                  />
+                </div>
+                <h4 className="font-semibold text-gray-900 mb-1">Artūrs Kaņepājs</h4>
+                <p className="text-sm text-gray-600">({t('about.boardChairman')})</p>
+              </div>
+              
+              <div className="text-center">
+                <div className="w-32 h-32 mx-auto mb-4 rounded-full overflow-hidden shadow-lg">
+                  <img 
+                    src="https://media.licdn.com/dms/image/v2/D4D03AQE1TXK86qkrjg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1693560008372?e=1763596800&v=beta&t=sUYs15JlFD2SslPmvZV6hAV00NHAMyh03nlG1sNHhls"
+                    alt="Kalvis Kalniņš"
+                    className="w-full h-full object-cover"
+                  />
+                </div>
+                <h4 className="font-semibold text-gray-900">Kalvis Kalniņš</h4>
+              </div>
+              
+              <div className="text-center">
+                <div className="w-32 h-32 mx-auto mb-4 rounded-full overflow-hidden shadow-lg">
+                  <img 
+                    src="https://media.licdn.com/dms/image/v2/C4E03AQE7xvyhT1ijAg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1647355835355?e=1763596800&v=beta&t=YthgZiWydq4BvKVlDncWWop_lBT27YhfY818qT2y6VY"
+                    alt="Kirils Surovovs"
+                    className="w-full h-full object-cover"
+                  />
+                </div>
+                <h4 className="font-semibold text-gray-900">Kirils Surovovs</h4>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>

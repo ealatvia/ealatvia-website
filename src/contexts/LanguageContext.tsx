@@ -42,6 +42,8 @@ const translations = {
     'about.point1': 'organizē EA popularizēšanas pasākumus,',
     'about.point2': 'nodrošina iespēju saņemt nodokļu atmaksu par ziedojumiem efektīvajām labdarības organizācijām,',
     'about.point3': 'organizē neformālas tikšanās cilvēkiem, kas interesējas par EA.',
+    'about.boardTitle': 'Valdes locekļi',
+    'about.boardChairman': 'valdes priekšsēdētājs',
     
     // Resources
     'resources.title': 'Starptautiskie',
@@ -116,6 +118,8 @@ const translations = {
     'about.point1': 'organizes EA promotion events,',
     'about.point2': 'provides the opportunity to receive tax refunds for donations to effective charities,',
     'about.point3': 'organizes informal meetings for people interested in EA.',
+    'about.boardTitle': 'Board Members',
+    'about.boardChairman': 'chairman of the board',
     
     // Resources
     'resources.title': 'International',
