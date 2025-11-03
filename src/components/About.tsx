@@ -1,23 +1,14 @@
 import React from 'react';
-import { Users, Calendar, Receipt, Coffee } from 'lucide-react';
+import { Users } from 'lucide-react';
 import { useLanguage } from '../contexts/LanguageContext';
 
 const About: React.FC = () => {
   const { t } = useLanguage();
 
   const points = [
-    {
-      text: t('about.point1'),
-      icon: <Calendar className="w-6 h-6" />
-    },
-    {
-      text: t('about.point2'),
-      icon: <Receipt className="w-6 h-6" />
-    },
-    {
-      text: t('about.point3'),
-      icon: <Coffee className="w-6 h-6" />
-    }
+    t('about.point1'),
+    t('about.point2'),
+    t('about.point3')
   ];
 
   return (
@@ -42,18 +33,14 @@ const About: React.FC = () => {
             </p>
 
             <div className="space-y-6">
-              {points.map((point, index) => (
-                <div key={index} className="flex items-start space-x-4 p-4 bg-gray-50 rounded-xl">
-                  <div className="bg-blue-100 p-2 rounded-full flex-shrink-0 mt-1">
-                    <div className="text-blue-600">
-                      {point.icon}
-                    </div>
-                  </div>
-                  <p className="text-gray-700 leading-relaxed flex-1">
-                    {point.text}
-                  </p>
-                </div>
-              ))}
+              <ul className="space-y-4">
+                {points.map((point, index) => (
+                  <li key={index} className="flex items-start space-x-3 text-gray-700 leading-relaxed">
+                    <span className="w-2 h-2 bg-[#9D1B35] rounded-full flex-shrink-0 mt-3"></span>
+                    <span>{point}</span>
+                  </li>
+                ))}
+              </ul>
             </div>
           </div>
 
