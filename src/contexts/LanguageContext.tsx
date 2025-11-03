@@ -12,7 +12,7 @@ const translations = {
   lv: {
     // Header
     'nav.home': 'Sākums',
-    'nav.definition': 'Definīcija',
+    'nav.definition': 'Kas tas ir',
     'nav.resources': 'Resursi',
     'nav.organizations': 'Organizācijas',
     'nav.contact': 'Kontakti',
@@ -77,7 +77,7 @@ const translations = {
   en: {
     // Header
     'nav.home': 'Home',
-    'nav.definition': 'Definition',
+    'nav.definition': 'What is it',
     'nav.resources': 'Resources',
     'nav.organizations': 'Organizations',
     'nav.contact': 'Contact',
