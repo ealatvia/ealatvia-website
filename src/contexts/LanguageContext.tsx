@@ -41,7 +41,8 @@ const translations = {
     'about.text': 'EA Latvia ir maza (ap 10 biedru) NVO, kas',
     'about.point1': 'organizē EA popularizēšanas pasākumus,',
     'about.point2': 'nodrošina iespēju saņemt nodokļu atmaksu par ziedojumiem efektīvajām labdarības organizācijām,',
-    'about.point3': 'organizē neformālas tikšanās cilvēkiem, kas interesējas par EA.',
+    'about.point3': 'uztur efektīvās ziedošanas platformu https://ziedoefektivi.lv/,',
+    'about.point4': 'organizē neformālas tikšanās cilvēkiem, kas interesējas par EA.',
     'about.boardTitle': 'Valdes locekļi',
     'about.boardChairman': 'valdes priekšsēdētājs',
     
