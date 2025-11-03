@@ -37,7 +37,7 @@ const translations = {
     
     // About
     'about.title': 'Kas mēs esam',
-    // 'about.titleHighlight': 'esam',
+    'about.titleHighlight': '',
     'about.text': 'EA Latvia ir maza (ap 10 biedru) NVO, kas',
     'about.point1': 'organizē EA popularizēšanas pasākumus,',
     'about.point2': 'nodrošina iespēju saņemt nodokļu atmaksu par ziedojumiem efektīvajām labdarības organizācijām,',
@@ -111,7 +111,7 @@ const translations = {
     
     // About
     'about.title': 'Who we are',
-    'about.titleHighlight': 'are',
+    'about.titleHighlight': '',
     'about.text': 'EA Latvia is a small (about 10 members) NGO that',
     'about.point1': 'organizes EA promotion events,',
     'about.point2': 'provides the opportunity to receive tax refunds for donations to effective charities,',
