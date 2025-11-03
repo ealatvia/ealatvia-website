@@ -20,14 +20,14 @@ const translations = {
     
     // Hero
     'hero.title': 'Effective Altruism Latvia',
-    'hero.subtitle': 'Mēs katrs varam radīt jēgpilnu, pozitīvu ietekmi plašā mērogā. Lai to panāktu, jāatbalsta labdarības organizācijas, kuru efektivitāte ir pierādīta un apstiprināta.',
+    'hero.subtitle': 'Mēs katrs varam radīt jēgpilnu, pozitīvu ietekmi plašā mērogā, atbalstot labdarības organizācijas, kuru efektivitāte ir pierādīta.',
     'hero.global': 'Globāla ietekme',
     'hero.scientific': 'Empātija un rūpes',
     
     // Definition
     'definition.title': 'Kas ir',
     'definition.titleHighlight': 'efektīvais altruisms',
-    'definition.text': 'Efektīvais altruisms ir filozofija un sociālā kustība, kas izmanto datos balstītu pieeju un rūpīgu analīzi, lai atklātu efektīvākos veidus, kā uzlabot pasauli. Efektīvā altruisma piekritēji apņemas izvērtēt dažādas iespējas palīdzēt citiem, un tad rīkoties, lai radītu pēc iespējas lielākas pozitīvās pārmaiņas. Šī plašā, zinātnē balstītā pieeja atšķir efektīvo altruismu no tradicionāla altruisma vai labdarības.',
+    'definition.text': 'Efektīvais altruisms (EA) ir filozofija un sociālā kustība, kas izmanto datos balstītu pieeju un rūpīgu analīzi, lai atklātu efektīvākos veidus, kā uzlabot pasauli. Efektīvā altruisma piekritēji izvērtē dažādas iespējas palīdzēt citiem un tad rīkojas, lai radītu pēc iespējas lielākas pozitīvās pārmaiņas. Šī plašā, zinātnē balstītā pieeja atšķir efektīvo altruismu no tradicionāla altruisma vai labdarības.',
     'definition.evidence': 'Pierādījumi',
     'definition.evidenceDesc': 'Izmantojam zinātniskos pētījumus un datus, lai pieņemtu informētus lēmumus.',
     'definition.focus': 'Mērķtiecība',
@@ -53,7 +53,7 @@ const translations = {
     'resources.forum.desc': 'Diskusiju forums EA kopienas dalībniekiem un ekspertiem',
     
     // Organizations
-    'organizations.title': 'Populārās',
+    'organizations.title': 'Populāras',
     'organizations.titleHighlight': 'organizācijas',
     'organizations.subtitle': 'Uzziniet par vadošajām EA organizācijām un to ieguldījumu pasaules uzlabošanā',
     'organizations.givewell.desc': 'Pēta un iesaka efektīvākās labdarības organizācijas, kas izglābj dzīvības un uzlabo cilvēku labklājību.',
@@ -94,14 +94,14 @@ const translations = {
     
     // Hero
     'hero.title': 'Effective Altruism Latvia',
-    'hero.subtitle': 'Each of us can make a meaningful, positive impact on a large scale. Everyone has the opportunity to save lives and prevent unnecessary suffering.',
+    'hero.subtitle': 'Each of us can make a meaningful, positive impact on a large scale by supporting causes with proven efficiency.',
     'hero.global': 'Global impact',
     'hero.scientific': 'Empathy and care',
     
     // Definition
     'definition.title': 'What is',
     'definition.titleHighlight': 'effective altruism',
-    'definition.text': 'Effective altruism is a philosophy and social movement that uses data-based approach and careful analysis to discover the most effective ways to improve the world. Effective altruists commit to evaluating various opportunities to help others, and then act to create the greatest possible positive changes. This broad, science-based approach distinguishes effective altruism from traditional altruism or charity.',
+    'definition.text': 'Effective altruism (EA) is a philosophy and social movement that uses data-based approach and careful analysis to discover the most effective ways to improve the world. Effective altruists commit to evaluating various opportunities to help others, and then act to create the greatest possible positive changes. This broad, science-based approach distinguishes effective altruism from traditional altruism or charity.',
     'definition.evidence': 'Evidence',
     'definition.evidenceDesc': 'We use scientific research and data to make informed decisions.',
     'definition.focus': 'Focus',
