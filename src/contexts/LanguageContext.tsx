@@ -36,8 +36,8 @@ const translations = {
     'definition.analysisDesc': 'Tiekamies, komunicējam un atbalstam viens otru.',
     
     // About
-    'about.title': 'Kas mēs',
-    'about.titleHighlight': 'esam',
+    'about.title': 'Kas mēs esam',
+    // 'about.titleHighlight': 'esam',
     'about.text': 'EA Latvia ir maza (ap 10 biedru) NVO, kas',
     'about.point1': 'organizē EA popularizēšanas pasākumus,',
     'about.point2': 'nodrošina iespēju saņemt nodokļu atmaksu par ziedojumiem efektīvajām labdarības organizācijām,',
@@ -110,7 +110,7 @@ const translations = {
     'definition.analysisDesc': 'We meet, communicate and support each other.',
     
     // About
-    'about.title': 'Who we',
+    'about.title': 'Who we are',
     'about.titleHighlight': 'are',
     'about.text': 'EA Latvia is a small (about 10 members) NGO that',
     'about.point1': 'organizes EA promotion events,',
