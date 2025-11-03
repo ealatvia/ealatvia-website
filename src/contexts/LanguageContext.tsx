@@ -13,6 +13,7 @@ const translations = {
     // Header
     'nav.home': 'Sākums',
     'nav.definition': 'Kas tas ir',
+    'nav.about': 'Kas mēs esam',
     'nav.resources': 'Resursi',
     'nav.organizations': 'Organizācijas',
     'nav.contact': 'Kontakti',
@@ -32,7 +33,15 @@ const translations = {
     'definition.focus': 'Mērķtiecība',
     'definition.focusDesc': 'Fokusējamies uz darbībām, kas rada vislielāko pozitīvo ietekmi.',
     'definition.analysis': 'Kopiena',
-    'definition.analysisDesc': 'Tiekamies, komunicējam un atbalstām viens otru.',
+    'definition.analysisDesc': 'Tiekamies, komunicējam un atbalstam viens otru.',
+    
+    // About
+    'about.title': 'Kas mēs',
+    'about.titleHighlight': 'esam',
+    'about.text': 'EA Latvia ir maza (ap 10 biedru) NVO, kas',
+    'about.point1': 'organizē EA popularizēšanas pasākumus,',
+    'about.point2': 'nodrošina iespēju saņemt nodokļu atmaksu par ziedojumiem efektīvajām labdarības organizācijām,',
+    'about.point3': 'organizē neformālas tikšanās cilvēkiem, kas interesējas par EA.',
     
     // Resources
     'resources.title': 'Starptautiskie',
@@ -78,6 +87,7 @@ const translations = {
     // Header
     'nav.home': 'Home',
     'nav.definition': 'What is it',
+    'nav.about': 'Who we are',
     'nav.resources': 'Resources',
     'nav.organizations': 'Organizations',
     'nav.contact': 'Contact',
@@ -98,6 +108,14 @@ const translations = {
     'definition.focusDesc': 'We focus on actions that create the greatest positive impact.',
     'definition.analysis': 'Community',
     'definition.analysisDesc': 'We meet, communicate and support each other.',
+    
+    // About
+    'about.title': 'Who we',
+    'about.titleHighlight': 'are',
+    'about.text': 'EA Latvia is a small (about 10 members) NGO that',
+    'about.point1': 'organizes EA promotion events,',
+    'about.point2': 'provides the opportunity to receive tax refunds for donations to effective charities,',
+    'about.point3': 'organizes informal meetings for people interested in EA.',
     
     // Resources
     'resources.title': 'International',

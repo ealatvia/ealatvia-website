@@ -3,6 +3,7 @@ import { LanguageProvider } from './contexts/LanguageContext';
 import Header from './components/Header';
 import Hero from './components/Hero';
 import Definition from './components/Definition';
+import About from './components/About';
 import Resources from './components/Resources';
 import Organizations from './components/Organizations';
 import Contact from './components/Contact';
@@ -18,6 +19,7 @@ function App() {
         <main>
           <Hero />
           <Definition />
+          <About />
           <Resources />
           <Organizations />
           <Contact />

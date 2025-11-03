@@ -22,6 +22,7 @@ const Header: React.FC<HeaderProps> = ({ isMenuOpen, setIsMenuOpen }) => {
   const menuItems = [
     { id: 'home', label: t('nav.home') },
     { id: 'definition', label: t('nav.definition') },
+    { id: 'about', label: t('nav.about') },
     { id: 'resources', label: t('nav.resources') },
     { id: 'organizations', label: t('nav.organizations') },
     { id: 'contact', label: t('nav.contact') },
