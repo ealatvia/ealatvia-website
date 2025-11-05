@@ -1,5 +1,4 @@
 import React from 'react';
-import { Globe, Heart } from 'lucide-react';
 import { useLanguage } from '../contexts/LanguageContext';
 
 const Hero: React.FC = () => {
@@ -29,17 +28,6 @@ const Hero: React.FC = () => {
             </p>
           </div>
 
-          <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
-            <div className="flex items-center space-x-3 text-gray-600">
-              <Globe className="w-6 h-6 text-blue-400" />
-              <span className="font-medium">{t('hero.global')}</span>
-            </div>
-            <div className="hidden sm:block w-px h-6 bg-gray-300"></div>
-            <div className="flex items-center space-x-3 text-gray-600">
-              <Heart className="w-6 h-6 text-[#9D1B35]" />
-              <span className="font-medium">{t('hero.scientific')}</span>
-            </div>
-          </div>
         </div>
       </div>
     </section>
