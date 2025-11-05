@@ -38,7 +38,7 @@ const translations = {
     // About
     'about.title': 'Kas mēs esam',
     'about.titleHighlight': ' ',
-    'about.text': 'EA Latvia ir maza (ap 10 biedru) NVO, kas',
+    'about.text': 'Effective Altruism Latvia ir NVO, kas dibināta 2023. gadā un kopš tā laika',
     'about.point1': 'organizē EA popularizēšanas pasākumus,',
     'about.point2': 'nodrošina iespēju saņemt nodokļu atmaksu par ziedojumiem efektīvajām labdarības organizācijām,',
     'about.point3': 'uztur efektīvās ziedošanas platformu https://ziedoefektivi.lv/,',
