@@ -115,7 +115,7 @@ const translations = {
     // About
     'about.title': 'Who we are',
     'about.titleHighlight': ' ',
-    'about.text': 'EA Latvia is a small (about 10 members) NGO that',
+    'about.text': 'Effective Altruism Latvia is an NGO, which has been founded in 2023 and',
     'about.point1': 'organizes EA promotion events,',
     'about.point2': 'provides the opportunity to receive tax refunds for donations to effective charities,',
     'about.point3': 'organizes informal meetings for people interested in EA.',
