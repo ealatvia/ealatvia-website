@@ -26,7 +26,7 @@ const Definition: React.FC = () => {
               <div className="bg-blue-100 p-4 rounded-full w-16 h-16 mx-auto mb-4 flex items-center justify-center">
                 <BookOpen className="w-8 h-8 text-blue-600" />
               </div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-3">Pierādījumi</h3>
+              <h3 className="text-xl font-semibold text-gray-900 mb-3">{t('definition.evidence')}</h3>
               <p className="text-gray-600">
                 {t('definition.evidenceDesc')}
               </p>
