@@ -32,9 +32,12 @@ const Header: React.FC<HeaderProps> = ({ isMenuOpen, setIsMenuOpen }) => {
     <header className="fixed top-0 left-0 right-0 bg-white/95 backdrop-blur-sm shadow-sm z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
-          <div className="font-bold text-xl text-[#9D1B35]">
+          <button
+            onClick={() => scrollToSection('home')}
+            className="font-bold text-xl text-[#9D1B35] hover:text-[#8A1530] transition-colors duration-200"
+          >
             Effective Altruism Latvia
-          </div>
+          </button>
           
           {/* Language Switcher */}
           <div className="hidden md:block">
