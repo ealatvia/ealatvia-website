@@ -8,7 +8,8 @@ const About: React.FC = () => {
   const points = [
     t('about.point1'),
     t('about.point2'),
-    t('about.point3')
+    t('about.point3'),
+    t('about.point4')
   ];
 
   return (
