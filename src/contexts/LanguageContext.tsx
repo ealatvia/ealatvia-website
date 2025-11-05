@@ -106,7 +106,7 @@ const translations = {
     'definition.titleHighlight': 'effective altruism',
     'definition.text': 'Effective altruism (EA) is a philosophy and social movement that uses data-based approach and careful analysis to discover the most effective ways to improve the world. Effective altruists commit to evaluating various opportunities to help others, and then act to create the greatest possible positive changes. This broad, science-based approach distinguishes effective altruism from traditional altruism or charity.',
     'definition.evidence': 'Evidence',
-    'definition.evidenceDesc': 'Test We use scientific research and data to make informed decisions.',
+    'definition.evidenceDesc': 'We use scientific research and data to make informed decisions.',
     'definition.focus': 'Focus',
     'definition.focusDesc': 'We focus on actions that create the greatest positive impact.',
     'definition.analysis': 'Community',
