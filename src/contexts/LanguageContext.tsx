@@ -118,7 +118,8 @@ const translations = {
     'about.text': 'Effective Altruism Latvia is an NGO, which has been founded in 2023 and',
     'about.point1': 'organizes EA promotion events,',
     'about.point2': 'provides the opportunity to receive tax refunds for donations to effective charities,',
-    'about.point3': 'organizes informal meetings for people interested in EA.',
+    'about.point3': 'manages the effective giving platform https://ziedoefektivi.lv/,',
+    'about.point4': 'organizes informal meetings for people interested in EA.',
     'about.boardTitle': 'Board Members',
     'about.boardChairman': 'chairman of the board',
     
