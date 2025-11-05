@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { Menu, X } from 'lucide-react';
 import { useLanguage } from '../contexts/LanguageContext';
 import LanguageSwitcher from './LanguageSwitcher';
@@ -10,6 +10,7 @@ interface HeaderProps {
 
 const Header: React.FC<HeaderProps> = ({ isMenuOpen, setIsMenuOpen }) => {
   const { t } = useLanguage();
+  const [activeSection, setActiveSection] = useState('home');
 
   const scrollToSection = (sectionId: string) => {
     const element = document.getElementById(sectionId);
@@ -27,6 +28,26 @@ const Header: React.FC<HeaderProps> = ({ isMenuOpen, setIsMenuOpen }) => {
     { id: 'organizations', label: t('nav.organizations') },
     { id: 'contact', label: t('nav.contact') },
   ];
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const sections = menuItems.map(item => item.id);
+      const scrollPosition = window.scrollY + 100; // Offset for header height
+
+      for (let i = sections.length - 1; i >= 0; i--) {
+        const section = document.getElementById(sections[i]);
+        if (section && section.offsetTop <= scrollPosition) {
+          setActiveSection(sections[i]);
+          break;
+        }
+      }
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    handleScroll(); // Call once to set initial state
+
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
 
   return (
     <header className="fixed top-0 left-0 right-0 bg-white/95 backdrop-blur-sm shadow-sm z-50">
@@ -50,7 +71,11 @@ const Header: React.FC<HeaderProps> = ({ isMenuOpen, setIsMenuOpen }) => {
               <button
                 key={item.id}
                 onClick={() => scrollToSection(item.id)}
-                className="text-gray-700 hover:text-[#9D1B35] transition-colors duration-200 font-medium"
+                className={`transition-colors duration-200 font-medium ${
+                  activeSection === item.id
+                    ? 'text-[#9D1B35] border-b-2 border-[#9D1B35] pb-1'
+                    : 'text-gray-700 hover:text-[#9D1B35]'
+                }`}
               >
                 {item.label}
               </button>
@@ -77,7 +102,11 @@ const Header: React.FC<HeaderProps> = ({ isMenuOpen, setIsMenuOpen }) => {
                 <button
                   key={item.id}
                   onClick={() => scrollToSection(item.id)}
-                  className="text-left text-gray-700 hover:text-[#9D1B35] transition-colors duration-200 font-medium py-2"
+                  className={`text-left transition-colors duration-200 font-medium py-2 ${
+                    activeSection === item.id
+                      ? 'text-[#9D1B35] border-l-4 border-[#9D1B35] pl-4'
+                      : 'text-gray-700 hover:text-[#9D1B35]'
+                  }`}
                 >
                   {item.label}
                 </button>
