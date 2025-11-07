@@ -1,5 +1,5 @@
 import React from 'react';
-import { Users } from 'lucide-react';
+import { Users, Linkedin } from 'lucide-react';
 import { useLanguage } from '../contexts/LanguageContext';
 
 const About: React.FC = () => {
@@ -59,6 +59,15 @@ const About: React.FC = () => {
                   />
                 </div>
                 <h4 className="font-semibold text-gray-900 mb-1">Artūrs Kaņepājs</h4>
+                <a 
+                  href="https://www.linkedin.com/in/arturs-kanepajs/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center text-blue-600 hover:text-blue-800 transition-colors duration-200 mb-1"
+                >
+                  <Linkedin className="w-4 h-4 mr-1" />
+                  <span className="text-sm">LinkedIn</span>
+                </a>
                 <p className="text-sm text-gray-600">({t('about.boardChairman')})</p>
               </div>
               
@@ -71,6 +80,15 @@ const About: React.FC = () => {
                   />
                 </div>
                 <h4 className="font-semibold text-gray-900">Kalvis Kalniņš</h4>
+                <a 
+                  href="https://www.linkedin.com/in/kalvis-kalnins-lv/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center text-blue-600 hover:text-blue-800 transition-colors duration-200"
+                >
+                  <Linkedin className="w-4 h-4 mr-1" />
+                  <span className="text-sm">LinkedIn</span>
+                </a>
               </div>
               
               <div className="text-center">
@@ -82,6 +100,15 @@ const About: React.FC = () => {
                   />
                 </div>
                 <h4 className="font-semibold text-gray-900">Kirils Surovovs</h4>
+                <a 
+                  href="https://www.linkedin.com/in/kirils-surovovs-092b69a2/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center text-blue-600 hover:text-blue-800 transition-colors duration-200"
+                >
+                  <Linkedin className="w-4 h-4 mr-1" />
+                  <span className="text-sm">LinkedIn</span>
+                </a>
               </div>
             </div>
           </div>
