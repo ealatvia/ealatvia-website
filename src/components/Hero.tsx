@@ -5,7 +5,7 @@ const Hero: React.FC = () => {
   const { t } = useLanguage();
 
   return (
-    <section id="home" className="min-h-screen relative flex items-center pt-16 overflow-hidden">
+    <section id="home" className="min-h-[70vh] relative flex items-center pt-16 overflow-hidden">
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <img 
