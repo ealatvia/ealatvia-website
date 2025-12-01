@@ -74,7 +74,7 @@ const About: React.FC = () => {
               <div className="text-center">
                 <div className="w-32 h-32 mx-auto mb-4 rounded-full overflow-hidden shadow-lg">
                   <img 
-                    src="https://media.licdn.com/dms/image/v2/D4D03AQE1TXK86qkrjg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1693560008372?e=1763596800&v=beta&t=sUYs15JlFD2SslPmvZV6hAV00NHAMyh03nlG1sNHhls"
+                    src="public/kalvis.jpg"
                     alt="Kalvis Kalniņš"
                     className="w-full h-full object-cover"
                   />
@@ -94,7 +94,7 @@ const About: React.FC = () => {
               <div className="text-center">
                 <div className="w-32 h-32 mx-auto mb-4 rounded-full overflow-hidden shadow-lg">
                   <img 
-                    src="https://media.licdn.com/dms/image/v2/C4E03AQE7xvyhT1ijAg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1647355835355?e=1763596800&v=beta&t=YthgZiWydq4BvKVlDncWWop_lBT27YhfY818qT2y6VY"
+                    src="public/kirils.jpg"
                     alt="Kirils Surovovs"
                     className="w-full h-full object-cover"
                   />
