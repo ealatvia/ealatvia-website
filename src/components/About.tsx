@@ -53,7 +53,7 @@ const About: React.FC = () => {
               <div className="text-center">
                 <div className="w-32 h-32 mx-auto mb-4 rounded-full overflow-hidden shadow-lg">
                   <img 
-                    src="https://media.licdn.com/dms/image/v2/D4D03AQGVI4jI8eNNLg/profile-displayphoto-shrink_800_800/B4DZQYIjFIHwAc-/0/1735571682163?e=1763596800&v=beta&t=yxuNgrzbg_GRiztja43CsRBFa1QwgHDvM3LFaU182Hs"
+                    src="public/arturs.jpg"
                     alt="Artūrs Kaņepājs"
                     className="w-full h-full object-cover"
                   />
