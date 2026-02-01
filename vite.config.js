@@ -3,5 +3,5 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base: '/', // Replace with your actual repo name
+  base: '/ealatvia-website', // Replace with your actual repo name
 })
