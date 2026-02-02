@@ -53,7 +53,7 @@ const About: React.FC = () => {
               <div className="text-center">
                 <div className="w-32 h-32 mx-auto mb-4 rounded-full overflow-hidden shadow-lg">
                   <img 
-                    src="public/arturs.jpg"
+                    src="/arturs.jpg"
                     alt="Artūrs Kaņepājs"
                     className="w-full h-full object-cover"
                   />
@@ -74,7 +74,7 @@ const About: React.FC = () => {
               <div className="text-center">
                 <div className="w-32 h-32 mx-auto mb-4 rounded-full overflow-hidden shadow-lg">
                   <img 
-                    src="public/kalvis.jpg"
+                    src="/kalvis.jpg"
                     alt="Kalvis Kalniņš"
                     className="w-full h-full object-cover"
                   />
@@ -94,7 +94,7 @@ const About: React.FC = () => {
               <div className="text-center">
                 <div className="w-32 h-32 mx-auto mb-4 rounded-full overflow-hidden shadow-lg">
                   <img 
-                    src="public/kirils.jpg"
+                    src="/kirils.jpg"
                     alt="Kirils Surovovs"
                     className="w-full h-full object-cover"
                   />
