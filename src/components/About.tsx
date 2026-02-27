@@ -38,7 +38,7 @@ const About: React.FC = () => {
                 {points.map((point, index) => (
                   <li key={index} className="flex items-start space-x-3 text-gray-700 leading-relaxed">
                     <span className="w-2 h-2 bg-[#9D1B35] rounded-full flex-shrink-0 mt-3"></span>
-                    <span>{point}</span>
+                    <span dangerouslySetInnerHTML={{ __html: point }} />
                   </li>
                 ))}
               </ul>
