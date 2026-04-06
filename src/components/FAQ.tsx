@@ -1,0 +1,64 @@
+import React, { useState } from 'react';
+import { ChevronDown } from 'lucide-react';
+import { useLanguage } from '../contexts/LanguageContext';
+
+const FAQ: React.FC = () => {
+  const { t } = useLanguage();
+  const [openIndex, setOpenIndex] = useState<number | null>(null);
+
+  const faqs = [
+    { question: t('faq.q1'), answer: t('faq.a1') },
+    { question: t('faq.q2'), answer: t('faq.a2') },
+  ];
+
+  const toggle = (index: number) => {
+    setOpenIndex(openIndex === index ? null : index);
+  };
+
+  return (
+    <section id="faq" className="py-20 bg-gray-50">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="text-center mb-16">
+          <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">
+            {t('faq.title')} <span className="text-[#9D1B35]">{t('faq.titleHighlight')}</span>
+          </h2>
+          <p className="text-xl text-gray-600 max-w-2xl mx-auto">
+            {t('faq.subtitle')}
+          </p>
+        </div>
+
+        <div className="max-w-3xl mx-auto space-y-4">
+          {faqs.map((faq, index) => (
+            <div
+              key={index}
+              className="bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden"
+            >
+              <button
+                onClick={() => toggle(index)}
+                className="w-full flex items-center justify-between p-6 text-left hover:bg-gray-50 transition-colors duration-200 group"
+              >
+                <span className="text-lg font-semibold text-gray-900 group-hover:text-[#9D1B35] transition-colors duration-200 pr-4">
+                  {faq.question}
+                </span>
+                <ChevronDown
+                  className={`w-5 h-5 text-[#9D1B35] flex-shrink-0 transition-transform duration-300 ${
+                    openIndex === index ? 'rotate-180' : ''
+                  }`}
+                />
+              </button>
+              {openIndex === index && (
+                <div className="px-6 pb-6">
+                  <p className="text-gray-600 leading-relaxed">
+                    {faq.answer}
+                  </p>
+                </div>
+              )}
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default FAQ;

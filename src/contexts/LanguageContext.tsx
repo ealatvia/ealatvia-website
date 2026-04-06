@@ -16,6 +16,7 @@ const translations = {
     'nav.about': 'Kas mēs esam',
     'nav.resources': 'Resursi',
     'nav.organizations': 'Organizācijas',
+    'nav.faq': 'FAQ',
     'nav.contact': 'Kontakti',
     
     // Hero
@@ -63,7 +64,16 @@ const translations = {
     'organizations.gwwc.desc': 'Kopiena cilvēkiem, kas apņēmušies ziedot ievērojamu daļu no saviem ienākumiem efektīvām labdarības organizācijām.',
     'organizations.ace.desc': 'Pēta un iesaka efektīvākās organizācijas, kas aizstāv dzīvnieku tiesības un labklājību.',
     'organizations.80k.desc': 'Palīdz cilvēkiem atrast karjeru, kurā viņi var sasniegt vislielāko pozitīvo ietekmi.',
-    
+
+    // FAQ
+    'faq.title': 'Biežāk uzdotie',
+    'faq.titleHighlight': 'jautājumi',
+    'faq.subtitle': 'Atbildes uz biežāk uzdotajiem jautājumiem',
+    'faq.q1': 'Lorem ipsum dolor sit amet, consectetur adipiscing elit?',
+    'faq.a1': 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.',
+    'faq.q2': 'Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris?',
+    'faq.a2': 'Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+
     // Contact
     'contact.title': 'Kontakti',
     'contact.titleHighlight': 'un saziņa',
@@ -93,6 +103,7 @@ const translations = {
     'nav.about': 'Who we are',
     'nav.resources': 'Resources',
     'nav.organizations': 'Organizations',
+    'nav.faq': 'FAQ',
     'nav.contact': 'Contact',
     
     // Hero
@@ -140,7 +151,16 @@ const translations = {
     'organizations.gwwc.desc': 'A community of people who have pledged to donate a significant portion of their income to effective charities.',
     'organizations.ace.desc': 'Researches and recommends the most effective organizations that advocate for animal rights and welfare.',
     'organizations.80k.desc': 'Helps people find careers where they can make the greatest positive impact on the world.',
-    
+
+    // FAQ
+    'faq.title': 'Frequently asked',
+    'faq.titleHighlight': 'questions',
+    'faq.subtitle': 'Find answers to the most common questions',
+    'faq.q1': 'Lorem ipsum dolor sit amet, consectetur adipiscing elit?',
+    'faq.a1': 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.',
+    'faq.q2': 'Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris?',
+    'faq.a2': 'Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+
     // Contact
     'contact.title': 'Contact',
     'contact.titleHighlight': 'and communication',

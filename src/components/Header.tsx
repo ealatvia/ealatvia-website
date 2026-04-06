@@ -26,6 +26,7 @@ const Header: React.FC<HeaderProps> = ({ isMenuOpen, setIsMenuOpen }) => {
     { id: 'about', label: t('nav.about') },
     { id: 'resources', label: t('nav.resources') },
     { id: 'organizations', label: t('nav.organizations') },
+    { id: 'faq', label: t('nav.faq') },
     { id: 'contact', label: t('nav.contact') },
   ];
 
