@@ -9,6 +9,7 @@ const FAQ: React.FC = () => {
   const faqs = [
     { question: t('faq.q1'), answer: t('faq.a1') },
     { question: t('faq.q2'), answer: t('faq.a2') },
+    { question: t('faq.q3'), answer: t('faq.a3') },
   ];
 
   const toggle = (index: number) => {
@@ -48,9 +49,7 @@ const FAQ: React.FC = () => {
               </button>
               {openIndex === index && (
                 <div className="px-6 pb-6">
-                  <p className="text-gray-600 leading-relaxed">
-                    {faq.answer}
-                  </p>
+                  <p className="text-gray-600 leading-relaxed" dangerouslySetInnerHTML={{ __html: faq.answer }} />
                 </div>
               )}
             </div>

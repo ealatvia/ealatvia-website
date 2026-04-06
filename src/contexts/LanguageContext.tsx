@@ -73,6 +73,8 @@ const translations = {
     'faq.a1': 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.',
     'faq.q2': 'Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris?',
     'faq.a2': 'Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+    'faq.q3': 'Kam efektīvie altruisti cenšas palīdzēt? Kas skaitās "citi"?',
+    'faq.a3': 'Efektīvie altruisti apsvērumos nepārprotami iekļauj visus cilvēkus pasaulē, kas šobrīd eksistē. Vairums arī uzskata, ka dzīvnieki ir svarīgi, tāpat kā visi, kas varētu dzīvot nākotnē. Taču ar "citiem" parasti tiek domātas visas justspējīgās, ar apziņu apveltītās būtnes. Protams, kas ir apziņa un kurām būtnēm tā piemīt, nav līdz galam atbildēts jautājums. Kurām būtnēm piemīt spēja ciest un citas ētiski nozīmīgas īpašības, kā arī kurā brīdī tās rodas dzīvnieku valstī un citur, ir sarežģīts empīrisks jautājums.<br><br>Lasīt vairāk: <a href="http://animal-ethics.org/sentience-section/" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:text-blue-800 underline">Kurām būtnēm piemīt apziņa</a>',
 
     // Contact
     'contact.title': 'Kontakti',
@@ -160,6 +162,8 @@ const translations = {
     'faq.a1': 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.',
     'faq.q2': 'Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris?',
     'faq.a2': 'Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+    'faq.q3': 'Who do effective altruists try to help? Who counts as "others"?',
+    'faq.a3': 'Effective altruists explicitly include all people in the world who currently exist in their considerations. Most also believe that animals matter, as do all those who might live in the future. However, by "others" is usually meant all sentient, conscious beings. Of course, what consciousness is and which beings possess it is not a fully answered question. Which beings have the capacity to suffer and other ethically significant properties, as well as at what point these arise in the animal kingdom and elsewhere, is a complex empirical question.<br><br>Read more: <a href="http://animal-ethics.org/sentience-section/" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:text-blue-800 underline">Which beings are sentient</a>',
 
     // Contact
     'contact.title': 'Contact',
