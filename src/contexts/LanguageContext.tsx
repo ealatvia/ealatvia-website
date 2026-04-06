@@ -16,7 +16,7 @@ const translations = {
     'nav.about': 'Kas mēs esam',
     'nav.resources': 'Resursi',
     'nav.organizations': 'Organizācijas',
-    'nav.faq': 'FAQ',
+    'nav.faq': 'Jautājumi',
     'nav.contact': 'Kontakti',
     
     // Hero
@@ -69,10 +69,13 @@ const translations = {
     'faq.title': 'Biežāk uzdotie',
     'faq.titleHighlight': 'jautājumi',
     'faq.subtitle': 'Atbildes uz biežāk uzdotajiem jautājumiem',
-    'faq.q1': 'Lorem ipsum dolor sit amet, consectetur adipiscing elit?',
-    'faq.a1': 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.',
+
+    'faq.q1': 'Kādi ir efektīvā altruisma pamatprincipi?',
+    'faq.a1': '<ul class="mt-2 space-y-3"><li>• <strong>Nozīmīgums:</strong> cik daudziem šis palīdzētu un cik lielā mērā?</li><li>• <strong>Izmaksu efektivitāte:</strong> vai šis ir vislabākais veids, kā rīkoties? Dažādi projekti bieži vien stipri atšķiras efektivitātes ziņā, un labākie ir daudz labāki par vidusmēra.</li><li>• <strong>Hipotētiskā spriešana:</strong> kas notiktu, ja es būtu rīkojies citādi? Ja sekas, kuras vēlos panākt, notiktu arī bez manas rīcības, tad tai nebūtu nekādas ietekmes.</li><li>• <strong>Pievienotā vērtība:</strong> kāda būtu manas rīcības pievienotā vērtība? Iniciatīvas varētu būt ļoti labas, taču papildus finansējums var arī nenest lielu atdevi.</li><li>• <strong>Sagaidāmā vērtība:</strong> cik labs būtu iznākums un kādas ir izredzes to sasniegt? Pastāv idejas, kurām ir relatīvi zema varbūtība izdoties, taču lieli potenciālie ieguvumi. Tās var "atmaksāties" tikpat labi, cik iniciatīvas ar augstu varbūtību, bet vidējiem ieguvumiem.</li></ul><br><br>Lasīt vairāk: <a href="https://80000hours.org/articles/problem-framework/" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:text-blue-800 underline">Kā salīdzināt dažādas globālās problēmas pēc to potenciālās ietekmes</a>',
+
     'faq.q2': 'Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris?',
     'faq.a2': 'Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+
     'faq.q3': 'Kam efektīvie altruisti cenšas palīdzēt? Kas skaitās "citi"?',
     'faq.a3': 'Efektīvie altruisti apsvērumos nepārprotami iekļauj visus cilvēkus pasaulē, kas šobrīd eksistē. Vairums arī uzskata, ka dzīvnieki ir svarīgi, tāpat kā visi, kas varētu dzīvot nākotnē. Taču ar "citiem" parasti tiek domātas visas justspējīgās, ar apziņu apveltītās būtnes. Protams, kas ir apziņa un kurām būtnēm tā piemīt, nav līdz galam atbildēts jautājums. Kurām būtnēm piemīt spēja ciest un citas ētiski nozīmīgas īpašības, kā arī kurā brīdī tās rodas dzīvnieku valstī un citur, ir sarežģīts empīrisks jautājums.<br><br>Lasīt vairāk: <a href="http://animal-ethics.org/sentience-section/" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:text-blue-800 underline">Kurām būtnēm piemīt apziņa</a>',
 
@@ -158,12 +161,15 @@ const translations = {
     'faq.title': 'Frequently asked',
     'faq.titleHighlight': 'questions',
     'faq.subtitle': 'Find answers to the most common questions',
-    'faq.q1': 'Lorem ipsum dolor sit amet, consectetur adipiscing elit?',
-    'faq.a1': 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.',
+
+    'faq.q1': 'What are the core principles of effective altruism?',
+    'faq.a1': '<ul class="mt-2 space-y-3"><li>• <strong>Significance:</strong> how many people would this help and to what extent?</li><li>• <strong>Cost-effectiveness:</strong> is this the best way to act? Different projects often vary greatly in effectiveness, and the best ones are much better than average.</li><li>• <strong>Counterfactual reasoning:</strong> what would happen if I had acted differently? If the outcomes I want to achieve would happen without my action, then it would have no impact.</li><li>• <strong>Additionality:</strong> what would be the added value of my action? Initiatives might be very good, but additional funding may not yield great returns.</li><li>• <strong>Expected value:</strong> how good would the outcome be and what are the chances of achieving it? There are ideas with a relatively low probability of success but large potential gains. These can "pay off" just as well as initiatives with a high probability but average gains.</li></ul><br><br>Read more: <a href="https://80000hours.org/articles/problem-framework/" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:text-blue-800 underline">A framework for comparing global problems in terms of expected impact</a>',
+
     'faq.q2': 'Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris?',
     'faq.a2': 'Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+
     'faq.q3': 'Who do effective altruists try to help? Who counts as "others"?',
-    'faq.a3': 'Effective altruists explicitly include all people in the world who currently exist in their considerations. Most also believe that animals matter, as do all those who might live in the future. However, by "others" is usually meant all sentient, conscious beings. Of course, what consciousness is and which beings possess it is not a fully answered question. Which beings have the capacity to suffer and other ethically significant properties, as well as at what point these arise in the animal kingdom and elsewhere, is a complex empirical question.<br><br>Read more: <a href="http://animal-ethics.org/sentience-section/" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:text-blue-800 underline">Which beings are sentient</a>',
+    'faq.a3': 'Effective altruists explicitly include all people in the world who currently exist in their considerations. Most also believe that animals matter, as do all those who might live in the future. However, "others" usually entail all sentient, conscious beings. Of course, what consciousness is and which beings possess it is not completely understood. Which beings have the capacity to suffer and other ethically significant properties, as well as at what point these arise in the animal kingdom and elsewhere, is a complex empirical question.<br><br>Read more: <a href="http://animal-ethics.org/sentience-section/" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:text-blue-800 underline">Which beings are sentient</a>',
 
     // Contact
     'contact.title': 'Contact',
