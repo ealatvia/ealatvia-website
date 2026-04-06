@@ -20,7 +20,9 @@ const Contact: React.FC = () => {
     const mailtoUrl = `mailto:effectivealtruismlatvia@gmail.com?subject=${subject}&body=${body}`;
     
     // Open email client
-    window.location.href = mailtoUrl;
+    const link = document.createElement('a');
+    link.href = mailtoUrl;
+    link.click();
     
     setIsSubmitted(true);
     
