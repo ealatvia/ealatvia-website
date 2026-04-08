@@ -41,12 +41,14 @@ const translations = {
     'about.titleHighlight': ' ',
     'about.text': 'Effective Altruism Latvia ir NVO, kas dibināta 2023. gadā un kopš tā laika',
     'about.point1': 'organizē EA popularizēšanas pasākumus,',
-    'about.point2': 'nodrošina iespēju saņemt nodokļu atmaksu par ziedojumiem efektīvajām labdarības organizācijām,',
-    'about.point3': 'uztur efektīvās ziedošanas platformu <a href="https://ziedoefektivi.lv/" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:text-blue-800 underline">ziedoefektivi.lv</a>,',
+    'about.point2': 'uztur efektīvās ziedošanas platformu <a href="https://ziedoefektivi.lv/" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:text-blue-800 underline">ziedoefektivi.lv</a>,',
+    'about.point3': 'nodrošina iespēju saņemt nodokļu atmaksu par ziedojumiem efektīvajām labdarības organizācijām,',
     'about.point4': 'organizē neformālas tikšanās cilvēkiem, kas interesējas par EA.',
     'about.boardTitle': 'Valdes locekļi',
-    'about.boardChairman': 'valdes priekšsēdētājs',
-    
+    'about.boardChairman': '2023.-2026.',
+    'about.member1': '2025.-...',
+    'about.memeber2': '2025.-...',
+
     // Resources
     'resources.title': 'Starptautiskie',
     'resources.titleHighlight': 'resursi',
@@ -162,12 +164,14 @@ const translations = {
     'about.titleHighlight': ' ',
     'about.text': 'Effective Altruism Latvia is an NGO, which has been founded in 2023 and',
     'about.point1': 'organizes EA promotion events,',
-    'about.point2': 'provides the opportunity to receive tax refunds for donations to effective charities,',
-    'about.point3': 'manages the effective giving platform <a href="https://ziedoefektivi.lv/" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:text-blue-800 underline">ziedoefektivi.lv</a>,',
+    'about.point2': 'manages the effective giving platform <a href="https://ziedoefektivi.lv/" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:text-blue-800 underline">ziedoefektivi.lv</a>,',
+    'about.point3': 'provides the opportunity to receive tax refunds for donations to effective charities,',
     'about.point4': 'organizes informal meetings for people interested in EA.',
     'about.boardTitle': 'Board Members',
-    'about.boardChairman': 'chairman of the board',
-    
+    'about.boardChairman': '2023.-2026.',
+    'about.member1': '2025.-...',
+    'about.memeber2': '2025.-...',
+
     // Resources
     'resources.title': 'International',
     'resources.titleHighlight': 'resources',

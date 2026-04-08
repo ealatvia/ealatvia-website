@@ -79,16 +79,17 @@ const About: React.FC = () => {
                     className="w-full h-full object-cover"
                   />
                 </div>
-                <h4 className="font-semibold text-gray-900">Kalvis Kalniņš</h4>
-                <a 
+                <h4 className="font-semibold text-gray-900 mb-1">Kalvis Kalniņš</h4>
+                <a
                   href="https://www.linkedin.com/in/kalvis-kalnins-lv/"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center text-blue-600 hover:text-blue-800 transition-colors duration-200"
+                  className="inline-flex items-center text-blue-600 hover:text-blue-800 transition-colors duration-200 mb-1"
                 >
                   <Linkedin className="w-4 h-4 mr-1" />
                   <span className="text-sm">LinkedIn</span>
                 </a>
+                <p className="text-sm text-gray-600">({t('about.member1')})</p>
               </div>
               
               <div className="text-center">
@@ -99,16 +100,17 @@ const About: React.FC = () => {
                     className="w-full h-full object-cover"
                   />
                 </div>
-                <h4 className="font-semibold text-gray-900">Kirils Surovovs</h4>
-                <a 
+                <h4 className="font-semibold text-gray-900 mb-1">Kirils Surovovs</h4>
+                <a
                   href="https://www.linkedin.com/in/kirils-surovovs-092b69a2/"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center text-blue-600 hover:text-blue-800 transition-colors duration-200"
+                  className="inline-flex items-center text-blue-600 hover:text-blue-800 transition-colors duration-200 mb-1"
                 >
                   <Linkedin className="w-4 h-4 mr-1" />
                   <span className="text-sm">LinkedIn</span>
                 </a>
+                <p className="text-sm text-gray-600">({t('about.memeber2')})</p>
               </div>
             </div>
           </div>
