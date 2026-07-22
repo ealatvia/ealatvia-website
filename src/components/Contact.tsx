@@ -17,7 +17,7 @@ const Contact: React.FC = () => {
     
     const subject = encodeURIComponent(`Message from ${formData.name} - EA Latvia`);
     const body = encodeURIComponent(`Name: ${formData.name}\nEmail: ${formData.email}\n\nMessage:\n${formData.message}`);
-    const mailtoUrl = `mailto:effectivealtruismlatvia@gmail.com?subject=${subject}&body=${body}`;
+    const mailtoUrl = `mailto:info@efektivaisaltruisms.lv?subject=${subject}&body=${body}`;
     
     // Open email client
     const link = document.createElement('a');
@@ -104,10 +104,10 @@ const Contact: React.FC = () => {
                 <h4 className="font-semibold text-gray-900">{t('contact.email')}</h4>
               </div>
               <a 
-                href="mailto:effectivealtruismlatvia@gmail.com" 
+                href="mailto:info@efektivaisaltruisms.lv" 
                 className="text-[#9D1B35] hover:underline"
               >
-                effectivealtruismlatvia@gmail.com
+                info@efektivaisaltruisms.lv
               </a>
             </div>
           </div>
