@@ -12,6 +12,12 @@ const About: React.FC = () => {
     t('about.point4')
   ];
 
+  const membershipPoints = [
+    t('about.membershipPoint1'),
+    t('about.membershipPoint2'),
+    t('about.membershipPoint3')
+  ];
+
   return (
     <section id="about" className="py-20 bg-gray-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -113,6 +119,17 @@ const About: React.FC = () => {
                 <p className="text-sm text-gray-600">({t('about.memeber2')})</p>
               </div>
             </div>
+          </div>
+
+          <div className="mt-16 bg-white p-8 rounded-2xl shadow-lg">
+            <ul className="space-y-4">
+              {membershipPoints.map((point, index) => (
+                <li key={index} className="flex items-start space-x-3 text-gray-700 leading-relaxed">
+                  <span className="w-2 h-2 bg-[#9D1B35] rounded-full flex-shrink-0 mt-3"></span>
+                  <span dangerouslySetInnerHTML={{ __html: point }} />
+                </li>
+              ))}
+            </ul>
           </div>
         </div>
       </div>
